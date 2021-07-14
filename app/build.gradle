@@ -29,12 +29,12 @@ android {
     }
 
     buildTypes {
-        debug {
-            minifyEnabled false
-            testCoverageEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguardTest-rules.pro'
-        }
+ //       debug {
+ //           minifyEnabled false
+ //           testCoverageEnabled true
+  //          proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+     //       testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguardTest-rules.pro'
+  ///      }
 
         release {
             minifyEnabled true
@@ -48,10 +48,10 @@ android {
 
     // If you need to add more flavors, consider using flavor dimensions.
     productFlavors {
-        mock {
-            dimension "default"
-            applicationIdSuffix = ".mock"
-        }
+       // mock {
+         //   dimension "default"
+           // applicationIdSuffix = ".mock"
+        //}
         prod {
             dimension "default"
         }
